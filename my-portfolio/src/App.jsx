@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Home from './components/Home';
+import DevLog from './components/DevLog';
+import BlogPost from './components/BlogPost';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -18,13 +18,16 @@ export default function App() {
   }, []);
 
   return (
-    <div className="bg-gray-900 text-gray-100 leading-relaxed antialiased">
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="bg-gray-900 text-gray-100 leading-relaxed antialiased">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/devlog" element={<DevLog />} />
+          <Route path="/devlog/:slug" element={<BlogPost />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   )
 }

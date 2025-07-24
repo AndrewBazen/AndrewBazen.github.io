@@ -1,21 +1,7 @@
 @import "tailwindcss";
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px;
-}
-
-body {
-  font-family: 'Inter', system-ui, sans-serif;
-}
-
-/* Ensure page always starts at top */
-html, body {
-  scroll-restoration: manual;
-}
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
@@ -33,4 +19,9 @@ html, body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #2563eb;
+}
+
+/* Scroll restoration */
+html, body {
+  scroll-restoration: manual;
 }

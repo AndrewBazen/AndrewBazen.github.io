@@ -22,16 +22,16 @@ const projects = [
  
   {
     title: 'StackScribe-AI: AI-Powered Plugin for StackScribe',
-    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/stackscrib-ai.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/stackscribe-ai.png?raw=true',
     desc: 'Custom AI plugin for automated note links and backlinks.',
     link: 'https://github.com/AndrewBazen/stackscrib-ai',
     tech: ['Python', 'Docker', 'Ollama', 'Qdrant'],
     featured: false,
   },
   {
-    title: 'Mage: Rust-based shell-scripting language with a fantasy theme, built-in functions for automation, and treesitter for syntax highlighting.',
+    title: 'Mage: Rust-based shell-scripting language with a fantasy theme',
     image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/Mage.png?raw=true',
-    desc: 'Rust-based shell-scripting language with a focus on automation and productivity with a fantasy theme.',
+    desc: 'Rust-based shell-scripting language with a focus on automation and productivity with a fantasy theme, built-in functions for automation, and treesitter for syntax highlighting.',
     link: 'https://github.com/AndrewBazen/mage',
     tech: ['Rust'],
     featured: false,
