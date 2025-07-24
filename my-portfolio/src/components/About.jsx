@@ -3,8 +3,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function About() {
-  const skills = ['Azure', '.NET 8', 'C#', 'Terraform', 'GitHub Actions', 'Docker', 'Kubernetes', 'Python'];
-  
+  const skills = ['Microsoft Azure', 'Entra ID', '.NET MAUI', '.NET', 'ASP.NET', 'Blazor', 'React', 'Rust', 'Typescript',
+    'JavaScript', 'Java', 'Grafana', 'Prometheus', 'AI/ML Fundamentals', 'C#', 'C',
+    'C++', 'GitHub Actions', 'Docker', 'Docker Compose', 'Python', 'PyTorch', 'PostgreSQL', 'SQLite', 'Git', 
+    'Linux', 'Windows', 'MacOS', 'Android', 'CI/CD', 'Agile', 'Kanban', 'Jira', 'Slack', 
+    'PowerShell Scripting', 'Bash Scripting', 'REST', 'TLS', 'OpenSSL',]
+     
+     
   const certifications = [
     { name: 'Microsoft Certified: Azure AI Fundamentals (AI-900)', progress: 75, status: 'In Progress' },
     { name: 'Microsoft Certified: Azure Developer Associate (AZ-204)', progress: 75, status: 'In Progress' },
