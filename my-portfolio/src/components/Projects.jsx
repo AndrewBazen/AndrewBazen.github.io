@@ -29,8 +29,8 @@ const projects = [
     featured: false,
   },
   {
-    title: 'Mage: Rust-based shell-scripting language',
-    image: 'https://github.com/AndrewBazen/mage/blob/main/mage.png?raw=true',
+    title: 'Mage: Rust-based shell-scripting language with a fantasy theme, built-in functions for automation, and treesitter for syntax highlighting.',
+    image: 'https://github.com/AndrewBazen/mage/blob/main/Mage.png?raw=true',
     desc: 'Rust-based shell-scripting language with a focus on automation and productivity with a fantasy theme.',
     link: 'https://github.com/AndrewBazen/mage',
     tech: ['Rust'],
@@ -77,7 +77,7 @@ export default function Projects() {
             Featured <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-blue-600 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Building scalable solutions with modern technologies and best practices
+            Constantly learning and building with modern technologies and best practices
           </p>
         </motion.div>
 
