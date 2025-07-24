@@ -13,16 +13,16 @@ const projects = [
   },
   {
     title: 'CodeChat: Azure Hosted Blazor Chat App',
-    image: 'https://github.com/mssa-ccad18/CodeAvengers/blob/main/Projects/CodeChat/images/CodeChat.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/CodeChat.png?raw=true',
     desc: 'Blazor chat app with secure chatrooms and SignalR.',
-    link: 'https://github.com/mssa-ccad18/CodeAvengers/tree/main/Projects/CodeChat/CodeChat',
+    link: 'https://github.com/AndrewBazen/CodeChat',
     tech: ['C#', '.NET 8', 'Blazor', 'AI', 'Azure', 'SignalR'],
     featured: false,
   },
  
   {
     title: 'StackScribe-AI: AI-Powered Plugin for StackScribe',
-    image: 'https://github.com/AndrewBazen/stackscrib-ai/blob/main/images/stackscrib-ai.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/stackscrib-ai.png?raw=true',
     desc: 'Custom AI plugin for automated note links and backlinks.',
     link: 'https://github.com/AndrewBazen/stackscrib-ai',
     tech: ['Python', 'Docker', 'Ollama', 'Qdrant'],
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     title: 'Mage: Rust-based shell-scripting language with a fantasy theme, built-in functions for automation, and treesitter for syntax highlighting.',
-    image: 'https://github.com/AndrewBazen/mage/blob/main/Mage.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/Mage.png?raw=true',
     desc: 'Rust-based shell-scripting language with a focus on automation and productivity with a fantasy theme.',
     link: 'https://github.com/AndrewBazen/mage',
     tech: ['Rust'],
@@ -38,7 +38,7 @@ const projects = [
   },
   {
     title: 'PocketSprite: Cross-platform Pixel Art Editor',
-    image: 'https://github.com/AndrewBazen/PocketSprite/blob/main/PocketSprite.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/PocketSprite.png?raw=true',
     desc: 'Cross-platform pixel art editor built on .NET MAUI and SkiaSharp.',
     link: 'https://github.com/AndrewBazen/PocketSprite',
     tech: ['C#', '.NET 8', '.NET MAUI', 'SkiaSharp'],
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: 'DiceRoller: Avalonia App for Dice Rolling',
-    image: 'https://github.com/AndrewBazen/DiceRoller/blob/main/DiceRoller.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/DiceRoller.png?raw=true',
     desc: 'Avalonia app for rolling virtual dice with a focus on simplicity and ease of use.',
     link: 'https://github.com/AndrewBazen/DiceRoller',
     tech: ['C#', '.NET 8', 'Avalonia'],
@@ -54,7 +54,7 @@ const projects = [
   },
   {
     title: 'CS469 Group Project: Three-tiered client-server CLI',
-    image: 'https://github.com/AndrewBazen/CS469-Group-Project/blob/main/CS469%20Group%20Project.png?raw=true',
+    image: 'https://github.com/AndrewBazen/AndrewBazen.github.io/blob/main/my-portfolio/src/images/CS469%20Group%20Project.png?raw=true',
     desc: 'Three-tiered client-server CLI with built in OpenSSL encryption for secure .',
     link: 'https://github.com/AndrewBazen/CS469-Group-Project',
     tech: ['C#', '.NET 8', 'CLI'],
