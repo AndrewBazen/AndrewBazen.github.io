@@ -99,7 +99,7 @@ export default function Navbar() {
           ))}
           
           {/* CTA Button */}
-          <motion.a
+          {/* <motion.a
             href="/#contact"
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium transition-all duration-150 ease-out hover:from-blue-500 hover:to-purple-500 text-sm"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -109,7 +109,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.95, transition: { duration: 0.1 } }}
           >
             Hire Me
-          </motion.a>
+          </motion.a> */}
         </div>
 
         {/* Mobile Menu Button */}
