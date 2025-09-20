@@ -180,7 +180,7 @@ export default function Navbar() {
               ))}
               
               {/* Mobile CTA Button */}
-              <motion.a
+              {/* <motion.a
                 href="/#contact"
                 className="block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium text-center transition-all duration-150 ease-out hover:from-blue-500 hover:to-purple-500 mt-6"
                 initial={{ opacity: 0, scale: 0.8 }}
@@ -191,7 +191,7 @@ export default function Navbar() {
                 onClick={() => setOpen(false)}
               >
                 Hire Me
-              </motion.a>
+              </motion.a> */}
             </div>
           </motion.div>
         )}

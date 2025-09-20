@@ -65,8 +65,8 @@ export default function About() {
         >
           <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-xl p-8">
             <p className="text-gray-300 text-lg leading-relaxed text-center max-w-5xl mx-auto">
-              Software Engineer with a focus on Cloud Application Development through Microsoft's Software and Systems Academy (MSSA). Three years of experience honing programming skills in multiple languages. Air Force veteran with an Active DoD Secret Security Clearance, transitioning from active service on 1 September 2025. Open to opportunities on the East Coast.
-            </p>
+              Software Engineer with a focus on Cloud Application Development through Microsoft's Software and Systems Academy (MSSA). Three years of experience honing programming skills in multiple languages. Air Force veteran with an Active DoD Secret Security Clearance.
+           </p>
           </div>
         </motion.div>
 
