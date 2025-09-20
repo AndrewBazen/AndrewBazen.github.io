@@ -65,9 +65,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="mt-10"
         >
-          <span className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-400 text-sm font-mono mb-4">
+          {/* <span className="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-400 text-sm font-mono mb-4">
             Available for opportunities
-          </span>
+          </span> */}
         </motion.div>
       </div>
     </section>
